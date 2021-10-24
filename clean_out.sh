@@ -1,5 +1,4 @@
 #!/bin/bash
 # clean all out file in binary directory
-cd binary
-rm -rf *.out
+find . -name "*.out"  | xargs rm -f
 echo "clean all the out files"
