@@ -1,5 +1,14 @@
 {
     "files.associations": {
-        "vector": "cpp"
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "sstream": "cpp",
+        "tuple": "cpp"
     }
 }
