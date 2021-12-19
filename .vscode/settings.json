@@ -10,6 +10,10 @@
         "initializer_list": "cpp",
         "sstream": "cpp",
         "tuple": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "functional": "cpp",
+        "random": "cpp",
+        "memory_resource": "cpp",
+        "regex": "cpp"
     }
 }

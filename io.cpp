@@ -1,9 +1,10 @@
-#include <iostream>
+
+#include <bits/stdc++.h>
+using namespace std;
 int main() {
-    int x = 5;
-    std::cout<< x << "\n";
-    int y;
-    std::cin >> y;
-    std::cout<< y << "\n";
+    
+    string a;
+    cin >> a;
+    printf("%s\n", a.c_str());
     return 0;
 }
