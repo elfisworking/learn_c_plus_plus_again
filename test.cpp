@@ -30,4 +30,15 @@ int main() {
     s1.push_back("d");
     cout << s2.size() << " " << s1.size() << endl;
     return 0;
+using namespace std;
+int main() {
+    int a = 1;
+    int & b = a;
+    int c = 2;
+    b = c;
+    b = 4;
+    cout << b << c << endl;
+    abort();
+    return 0;
+
 }

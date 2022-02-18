@@ -2,15 +2,13 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: clang++ 生成活动文件",
-            "command": "/usr/bin/clang++",
+            "label": "C/C++: g++ 生成活动文件",
+            "command": "/usr/bin/g++",
             "args": [
-                "-fdiagnostics-color=always",
-                "-std=c++11",
-                // "-g", 会生成dsYm文件
+                "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/binary/${fileBasenameNoExtension}.out"
+                "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"
