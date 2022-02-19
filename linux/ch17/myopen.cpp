@@ -12,9 +12,10 @@ int main() {
     //     exit(0);
     // }
     // close(fd);
-    fd = open("myhello", O_RDWR | O_CREAT, 0777);
+    fd = open("myhello", O_RDWR | O_CREAT | O_EXCL, 0777);
     if(fd == -1) {
         perror("open file");
+        exit(1);
     }
     printf("f = %d\n", fd);
     int ret = close(fd);
