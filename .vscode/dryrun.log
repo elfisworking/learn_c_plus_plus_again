@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/yumin_zhang/Project/github/learn_c_plus_plus_again'
+cc    -c -o my_select.o my_select.c
+cc    -c -o my_select2.o my_select2.c
+gcc -o my_select.out my_select.o
+gcc -o my_select2.out my_select2.o
+make: Leaving directory '/home/yumin_zhang/Project/github/learn_c_plus_plus_again'
+ 
